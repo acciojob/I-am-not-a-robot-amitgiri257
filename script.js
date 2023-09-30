@@ -17,7 +17,7 @@ function shuffleImages() {
 // Function to reset the game to its initial state
 function resetGame() {
     clickedImages = [];
-    resetButton.style.display = 'none';
+    resetButton.style.display = 'block';
     verifyButton.style.display = 'none';
     para.textContent = '';
     isVerifyButtonRendered = false;
